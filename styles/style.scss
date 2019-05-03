@@ -1,0 +1,92 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 100px;
+    background: linear-gradient(90deg, #1D2024 0%, #18191D 100%);
+    display: grid;
+    grid-template-columns: 390px 1fr 420px 200px 330px;
+
+
+    .logo_area{
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        padding-left: 40px;
+    }
+    .csgo_logo{
+        margin:  0 20px 0 80px;
+        width: 160px;
+    }
+
+
+}
+
+.screen{
+    display: grid;
+    height: 950px;
+    width: 100%;
+    width: 1900px;
+    margin:0 auto;
+    grid-template-columns: 135px 1fr 315px;
+    // grid-template-columns: repeat(3, 1fr);
+
+}
+
+
+.sidebar{
+    background-color:lightblue;
+    display: grid;
+    grid-template-rows: 100px;
+    .sidebar_item:nth-child(odd){
+        background-color: red;
+    }
+}
+.content{
+    display: grid;
+    background-color: lightgreen;
+    grid-template-columns: 5fr 2fr;
+    grid-template-rows: 420px 400px;
+    grid-gap: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 40px;
+
+    .content_creategame{
+        background-color: #ffcccc;
+    }
+    
+    .content_profile{
+        background-color: red;
+    }
+
+    .content_topplayers{
+        background-color: #ffcccc;
+    }
+    
+    .content_giveaway{
+        background-color: red;
+    }
+    
+}
+
+
+
+
+
+.games{
+    background-color:yellow;
+    display: grid;
+    grid-template-rows: 130px;
+    grid-gap: 17px;
+    padding: 40px 12px 0 70px;
+
+
+    .match{
+        background-color: red;
+    }
+}
+
+ 

@@ -1,0 +1,97 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 100px;
+  background: -webkit-gradient(linear, left top, right top, from(#1D2024), to(#18191D));
+  background: linear-gradient(90deg, #1D2024 0%, #18191D 100%);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 390px 1fr 420px 200px 330px;
+      grid-template-columns: 390px 1fr 420px 200px 330px;
+}
+
+header .logo_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 40px;
+}
+
+header .csgo_logo {
+  margin: 0 20px 0 80px;
+  width: 160px;
+}
+
+.screen {
+  display: -ms-grid;
+  display: grid;
+  height: 950px;
+  width: 100%;
+  width: 1900px;
+  margin: 0 auto;
+  -ms-grid-columns: 135px 1fr 315px;
+      grid-template-columns: 135px 1fr 315px;
+}
+
+.sidebar {
+  background-color: lightblue;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 100px;
+      grid-template-rows: 100px;
+}
+
+.sidebar .sidebar_item:nth-child(odd) {
+  background-color: red;
+}
+
+.content {
+  display: -ms-grid;
+  display: grid;
+  background-color: lightgreen;
+  -ms-grid-columns: 5fr 2fr;
+      grid-template-columns: 5fr 2fr;
+  -ms-grid-rows: 420px 400px;
+      grid-template-rows: 420px 400px;
+  grid-gap: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 40px;
+}
+
+.content .content_creategame {
+  background-color: #ffcccc;
+}
+
+.content .content_profile {
+  background-color: red;
+}
+
+.content .content_topplayers {
+  background-color: #ffcccc;
+}
+
+.content .content_giveaway {
+  background-color: red;
+}
+
+.games {
+  background-color: yellow;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 130px;
+      grid-template-rows: 130px;
+  grid-gap: 17px;
+  padding: 40px 12px 0 70px;
+}
+
+.games .match {
+  background-color: red;
+}
+/*# sourceMappingURL=style.css.map */
